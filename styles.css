@@ -175,22 +175,12 @@ div.menu a:hover {
     font-size: 18px;
 }
 
-.dropdown-content {
-    position: absolute;
-    background-color: white;
-    min-width: 150px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 4px;
-    margin-top: 8px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+
 
 .dropdown-content {
     display: none; 
     position: absolute;
-    background-color: white; 
+    background-color: #002f5f; 
     min-width: 150px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -208,8 +198,8 @@ div.menu a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1; 
-    color: #007bff; 
+    background-color: #145ac9; 
+    color: #ffffff; 
 }
 
 .dropdown.active .dropdown-content {
